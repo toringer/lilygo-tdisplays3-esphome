@@ -19,8 +19,8 @@ class TDisplayS3 : public PollingComponent,
 {
   public:
     void setup() override {
-    	pinMode(PWR_EN_PIN, OUTPUT);
-    	digitalWrite(PWR_EN_PIN, HIGH);
+    	pinMode(10, OUTPUT);
+    	digitalWrite(10, HIGH);
 	tft.begin();
 	tft.setRotation(0);
 	tft.setSwapBytes(true);
